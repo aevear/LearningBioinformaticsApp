@@ -1,0 +1,54 @@
+<ion-view view-title="Progress">
+  <ion-content>
+
+
+
+<!--Title-->
+    <div class="item item-divider">
+      Year one
+    </div>
+<!--Actual Classes-->
+    <ion-list>
+      <ion-checkbox ng-repeat="one in ones">{{one.course}}</ion-checkbox>
+    </ion-list>
+
+
+<!--Title-->
+    <div class="item item-divider">
+      Year two
+    </div>
+<!--Actual Classes-->
+    <ion-list>
+      <ion-checkbox ng-repeat="two in twos">{{two.course}}</ion-checkbox>
+    </ion-list>
+
+<!--Title-->
+    <div class="item item-divider">
+      Year three
+    </div>
+<!--Actual Classes-->
+    <ion-list>
+      <ion-checkbox ng-repeat="three in threes">{{three.course}}</ion-checkbox>
+    </ion-list>
+
+<!--Title-->
+    <div class="item item-divider">
+      Year four
+    </div>
+<!--Actual Classes-->
+    <ion-list>
+      <ion-checkbox ng-repeat="four in fours">{{four.course}}</ion-checkbox>
+    </ion-list>
+
+    <!--Title-->
+        <div class="item item-divider">
+          Year ex
+        </div>
+    <!--Actual Classes-->
+        <ion-list>
+          <ion-checkbox ng-repeat="ex in exs">{{ex.course}}</ion-checkbox>
+        </ion-list>
+
+
+  </ion-content>
+</ion-view>

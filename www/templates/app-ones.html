@@ -1,0 +1,17 @@
+<ion-view view-title="Year One">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-icon-right" ng-repeat="one in ones" type="item-text-wrap" href={{one.link}}>
+
+          <h2>{{one.course}}</h2>
+          <p><strong>Class</strong>: {{one.code}}</p>
+          <p><strong>Duration</strong>: {{one.duration}}</p>
+          <p><strong>Effort</strong>: {{one.effort}}</p>
+
+        <i class="icon ion-chevron-right icon-accessory"></i>
+
+
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

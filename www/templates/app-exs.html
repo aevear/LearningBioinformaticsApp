@@ -1,0 +1,21 @@
+<ion-view view-title="Year ex">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-icon-right" ng-repeat="ex in exs" type="item-text-wrap" href={{ex.link}}>
+
+          <h2>{{ex.course}}</h2>
+          <p><strong>Class</strong>: {{ex.code}}</p>
+          <p><strong>Duration</strong>: {{ex.duration}}</p>
+          <p><strong>Effort</strong>: {{ex.effort}}</p>
+
+        <i class="icon ion-chevron-right icon-accessory"></i>
+
+
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
+
+
+<a class="item" href="#" onclick="window.open('https://plus.google.com/+NicRaboy', '_system', 'location=yes'); return false;">
+                Open a Google+ Client or Browser</a>

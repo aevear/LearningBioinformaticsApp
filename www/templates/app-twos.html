@@ -1,0 +1,17 @@
+<ion-view view-title="Year two">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-icon-right" ng-repeat="two in twos" type="item-text-wrap" href={{two.link}}>
+
+          <h2>{{two.course}}</h2>
+          <p><strong>Class</strong>: {{two.code}}</p>
+          <p><strong>Duration</strong>: {{two.duration}}</p>
+          <p><strong>Effort</strong>: {{two.effort}}</p>
+
+        <i class="icon ion-chevron-right icon-accessory"></i>
+
+
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

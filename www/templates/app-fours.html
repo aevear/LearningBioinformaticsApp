@@ -1,0 +1,17 @@
+<ion-view view-title="Year four">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-icon-right" ng-repeat="four in fours" type="item-text-wrap" href={{four.id}}>
+
+          <h2>{{four.course}}</h2>
+          <p><strong>Class</strong>: {{four.code}}</p>
+          <p><strong>Duration</strong>: {{four.duration}}</p>
+          <p><strong>Effort</strong>: {{four.effort}}</p>
+
+        <i class="icon ion-chevron-right icon-accessory"></i>
+
+
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

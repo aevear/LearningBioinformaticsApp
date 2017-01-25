@@ -1,0 +1,15 @@
+/* Empty. Add your own CSS if you like */
+
+.splash {
+  background-size: cover;
+}
+
+.t {
+  font-weight: bold;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
