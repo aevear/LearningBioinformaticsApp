@@ -1,4 +1,5 @@
 {
   "name": "V3b",
-  "app_id": ""
+  "integrations": {},
+  "type": "angular"
 }
